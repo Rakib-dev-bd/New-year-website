@@ -226,10 +226,13 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-
-  overflow: hidden;
 }
 
+.img-container figure {
+  /* width: 80%; */
+  overflow: hidden;
+  transform: all 0.3s;
+}
 .gallery-img {
   display: block;
   width: 100%;
